@@ -9,6 +9,9 @@ Bamboo Slideshow is a Feature (module) for [Drupal 7](http://drupal.org/project/
 * [Libraries api](http://drupal.org/project/libraries) - 7.x-2.2
 * [Views](http://drupal.org/project/views) - 7.x-3.8
 * [Chaos tool suite (ctools)](http://drupal.org/project/ctools) - 7.x-1.4
+* [Views Slideshow](http://drupal.org/project/views_slideshow) - 7.x-3.1
+* [FlexSlider Views Slideshow](http://drupal.org/project/flexslider_views_slideshow) - 7.x-2.x-dev
+* [Flexslider (the Drupal Module)](http://drupal.org/project/flexslider) - 7.x-2.0-alpha3
 * [Flexslider 2.x (The library from WooThemes)](http://flexslider.woothemes.com/)
 
 1. Install the third party modules above as usual.
@@ -16,12 +19,12 @@ See [Installing contributed modules (Drupal 7)](http://drupal.org/documentation/
 You can download these all at once if you have Drush installed:
 
 ```
-drush dl entityreference, entity, features, libraries, views, ctools
+drush dl entityreference, entity, features, libraries, views, ctools, views_slideshow, flexslider_views_slideshow, flexslider
 
 ```
 You will still need to download the Flexslider library from Woothemes.
 2. Download and install the Flexslider library in */sites/all/libraries*.  After download, it will look like "woothemes-FlexSlider-06b12f8" or similar. You should rename this folder to "flexslider", all lower case so your final end result is */sites/all/libraries/flexslider*.
-3. Install the Bamboo Slideshow Feature (this module) as per above or if you have a "custom" directory under /modules. Be sure to rename the unzipped / untarred "bamboo_slideshow-7.x-1.x" to just "bamboo_slideshow"
+3. Install the Bamboo Slideshow Feature (this module) as per above or if you have a "custom" directory under /modules. Be sure to rename the unzipped / untarred "bamboo_slideshow-7.x-2.x" to just "bamboo_slideshow"
 
 **Typical locations for Drupal modules:**
 

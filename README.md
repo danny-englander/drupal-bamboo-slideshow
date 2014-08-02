@@ -67,8 +67,8 @@ Use the first block if you are using the **Page Content field**, use the second 
 ##Updating Bamboo Slideshow
 To update the Bamboo Slideshow feature, follow these steps:
 
-1. [Download the feature](http://highrockmedia.github.com/bamboo_slideshow/) as usual
-2. Rename the unzipped / untarred "bamboo_slideshow-7.x-1.x" to just "bamboo_slideshow" and replace the old one with this new one wherever you have it in your site. i.e. */sites/all/modules*
+1. [Download the feature](https://github.com/highrockmedia/drupal-bamboo-slideshow) from the repo
+2. Rename the unzipped / untarred "bamboo_slideshow-7.x-2.x" to just "bamboo_slideshow" and replace the old one with this new one wherever you have it in your site. i.e. */sites/all/modules*
 4. Clear your Drupal cache
 3. Go to your drupal Features admin page and check to see if Bamboo Slideshow has been overridden at: /admin/structure/features
 4. If 3 above is true (most likely), click on "overridden", check any boxes and save by clicking "Revert Feature".

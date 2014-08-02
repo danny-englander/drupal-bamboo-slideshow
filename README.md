@@ -9,6 +9,7 @@ Bamboo Slideshow is a Feature (module) for [Drupal 7](http://drupal.org/project/
 * [Libraries api](http://drupal.org/project/libraries) - 7.x-2.2
 * [Views](http://drupal.org/project/views) - 7.x-3.8
 * [Chaos tool suite (ctools)](http://drupal.org/project/ctools) - 7.x-1.4
+* [Strongarm (ctools)](https://www.drupal.org/project/strongarm) - 7.x-2.0
 * [Views Slideshow](http://drupal.org/project/views_slideshow) - 7.x-3.1
 * [FlexSlider Views Slideshow](http://drupal.org/project/flexslider_views_slideshow) - 7.x-2.x-dev
 * [Flexslider (the Drupal Module)](http://drupal.org/project/flexslider) - 7.x-2.0-alpha3
@@ -19,7 +20,7 @@ See [Installing contributed modules (Drupal 7)](http://drupal.org/documentation/
 You can download these all at once if you have Drush installed:
 
 ```
-drush dl entityreference, entity, features, libraries, views, ctools, views_slideshow, flexslider_views_slideshow, flexslider
+drush dl entityreference, strongarm, entity, features, libraries, views, ctools, views_slideshow, flexslider_views_slideshow, flexslider
 
 ```
 You will still need to download the Flexslider library from Woothemes.

@@ -20,7 +20,7 @@ function bamboo_slideshow_preprocess_views_view(&$vars) {
   $mod_path = drupal_get_path('module', 'bamboo_slideshow');
 
   // Add custom scripts for the the cards view.
-  if ($view->name == 'featured_slideshow') {
+  if ($view->name == 'bamboo_slideshow') {
 
     // Add theme CSS for slideshow.
     $bamboo_slideshow_css = array(

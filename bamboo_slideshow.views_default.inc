@@ -11,11 +11,11 @@ function bamboo_slideshow_views_default_views() {
   $export = array();
 
   $view = new view();
-  $view->name = 'featured_slideshow';
+  $view->name = 'bamboo_slideshow';
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Featured Slideshow';
+  $view->human_name = 'Bamboo Slideshow';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -394,7 +394,7 @@ function bamboo_slideshow_views_default_views() {
   $handler->display->display_options['fields']['view_node']['element_wrapper_type'] = 'span';
   $handler->display->display_options['fields']['view_node']['element_wrapper_class'] = 'bamboo-slideshow-read-more';
   $handler->display->display_options['fields']['view_node']['text'] = 'read more...';
-  $export['featured_slideshow'] = $view;
+  $export['bamboo_slideshow'] = $view;
 
   return $export;
 }

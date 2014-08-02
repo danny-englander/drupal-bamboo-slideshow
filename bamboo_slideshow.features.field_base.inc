@@ -140,24 +140,5 @@ function bamboo_slideshow_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'meta_robots'
-  $field_bases['meta_robots'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'meta_robots',
-    'foreign keys' => array(),
-    'indexes' => array(),
-    'locked' => 0,
-    'module' => 'metatags_quick',
-    'settings' => array(
-      'max_length' => 160,
-      'meta_name' => 'robots',
-    ),
-    'translatable' => 0,
-    'type' => 'metatags_quick',
-  );
-
   return $field_bases;
 }

@@ -31,7 +31,6 @@ You will still need to download the Flexslider library from Woothemes.
 
 ##Notes
 
-* As of 15 March 2013, you must now install the new module *FlexSlider Views Slideshow* (listed above) for this to work. This module was split off from Flexslider and made into its own. Thanks to all users who reported this issue to me, I really appreciate it.  
 * When you activate the Bamboo slideshow module, you will be prompted to activate the dependent modules. Be sure to agree to this option to activate these dependent modules. 
 * Tested with Drupal 7.30
 

@@ -1,0 +1,59 @@
+<?php
+/**
+ * @file
+ * Code for the Bamboo Slideshow feature.
+ */
+
+include_once 'bamboo_slideshow.features.inc';
+
+function bamboo_slideshow_page_alter(&$page) {
+
+  // Define the module path for use below.
+  $mod_path = drupal_get_path('module', 'bamboo_slideshow');
+
+  // Add theme CSS for slideshow.
+  $bamboo_slideshow_css = array(
+    '#attached' => array(
+      'css' => array(
+        $mod_path . '/css/bamboo-slideshow.css' => array(
+          'group' => CSS_THEME,
+          'weight' => 9999,
+        ),
+      ),
+    ),
+  );
+  drupal_render($bamboo_slideshow_css);
+
+}
+
+/**
+ * Implements hook_features_export_alter().
+ *
+ * Alter the final export array just prior to the rendering of
+ * defaults.
+ * FORBID the hook_views_api, we are going to add that ourself.
+ *
+ * @param array &$export
+ *   By reference. An array of all components to be exported with a given
+ *   feature.
+ * @param array $module_name
+ *   The name of the feature module to be generated.
+ */
+function bamboo_slideshow_features_export_alter(&$export, $module_name) {
+  // Override the default path for views.
+  if ($module_name == 'bamboo_slideshow' && !empty($export['features']['ctools']['views:views_default:3.0'])) {
+    unset($export['features']['ctools']['views:views_default:3.0']);
+  }
+}
+
+/**
+ * Implements hook_views_api().
+ * We are specifying a views template directory.
+ */
+function bamboo_slideshow_views_api() {
+  // Create our own views template path.
+  return array(
+    "version" => "3.0",
+    'template path' => drupal_get_path('module', 'bamboo_slideshow') . '/templates',
+  );
+}

@@ -1,0 +1,142 @@
+/* Slideshow theming for downloadable feature. */
+
+/* Global slideshow styles. */
+
+.bamboo-slideshow .flex-nav-container {
+  margin-bottom: 0;
+}
+
+.bamboo-slideshow ul li,
+#content article .bamboo-slideshow ul li {
+  list-style-image: none;
+}
+
+.bamboo-slideshow .flexslider {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  border: 1px solid #999;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.bamboo-slideshow .bamboo-slideshow-title {
+  border-bottom: 1px dotted #fff;
+  padding: .01em 0;
+  display: block;
+}
+
+.bamboo-slideshow li.flexslider-views-slideshow-main-frame-row  {
+  background: #333;
+  background: -moz-repeating-linear-gradient(#555, #333 75px);
+  background: -webkit-repeating-linear-gradient(#555, #333 75px);
+  background: -o-repeating-linear-gradient(#555, #333 75px);
+  background: -ms-repeating-linear-gradient(#555, #333 75px);
+  background: repeating-linear-gradient(#555, #333 75px);
+}
+
+.bamboo-slideshow .bamboo-slideshow-title h2 {
+  line-height: .5em;
+  padding: 0 1px 12px 12px;
+  font-weight: bold;
+  color: #eaeaea;
+  font-size: 1.3em;
+}
+
+.bamboo-slideshow .bamboo-slideshow-slide-text {
+  border-top: 1px dotted #fff;
+  color: #fff;
+  display: block;
+}
+
+.bamboo-slideshow .bamboo-slideshow-slide-text p {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.bamboo-slideshow .bamboo-slideshow-slide-text {
+  padding: 10px;
+}
+
+.bamboo-slideshow .bamboo-slideshow-read-more a {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  bottom: 80px;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: .1em;
+  opacity: 0.9;
+  padding: 7px;
+  position: absolute;
+  right: 10px;
+}
+
+.bamboo-slideshow .bamboo-slideshow-read-more a:hover {
+  color: #fff;
+  background: #999 !important;
+}
+
+.flex-control-nav {
+  bottom: -28px;
+}
+
+/* Bamboo specific colors */
+
+.color-palette-green-bamboo .bamboo-slideshow .bamboo-slideshow-slide-text,
+.color-palette-green-bamboo .bamboo-slideshow .bamboo-slideshow-read-more a {
+  background: #8ea61f;
+}
+
+.color-palette-dark-rust .bamboo-slideshow .bamboo-slideshow-slide-text,
+.color-palette-dark-rust .bamboo-slideshow .bamboo-slideshow-read-more a {
+  background: #b74819;
+}
+
+.color-palette-warm-purple .bamboo-slideshow .bamboo-slideshow-slide-text,
+.color-palette-warm-purple .bamboo-slideshow .bamboo-slideshow-read-more a {
+  background: #4d5067;
+}
+
+@media only screen and (min-width:690px) and (max-width:767px) {
+  .bamboo-slideshow .bamboo-slideshow-read-more a {
+    bottom: inherit;
+    top: 250px;
+  }
+}
+
+@media only screen and (min-width:300px) and (max-width:689px) {
+
+  .bamboo-slideshow .bamboo-slideshow-title h2 {
+    font-size: .85em;
+    line-height: 1em;
+  }
+
+  .bamboo-slideshow .bamboo-slideshow-slide-text p {
+    font-size: .9em;
+  }
+
+  .bamboo-slideshow .bamboo-slideshow-read-more a {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    background: #ccc;
+    border: none;
+    border-radius: 0;
+    bottom: 0;
+    display: block;
+    font-size: .9em;
+    letter-spacing: 0;
+    margin: 0;
+    padding: 4px 0 0 4px;
+    position: relative;
+    right: 0;
+  }
+
+  .color-palette-green-bamboo .bamboo-slideshow .bamboo-slideshow-read-more a,
+  .color-palette-dark-rust .bamboo-slideshow .bamboo-slideshow-read-more a,
+  .color-palette-warm-purple .bamboo-slideshow .bamboo-slideshow-read-more a {
+    background: #666;
+  }
+
+}

@@ -152,26 +152,8 @@ function bamboo_slideshow_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 1,
       'default_image' => 0,
-      'file_directory' => '',
+      'file_directory' => 'bamboo-slide-image',
       'file_extensions' => 'png gif jpg jpeg',
-      'filefield_paths' => array(
-        'active_updating' => 0,
-        'file_name' => array(
-          'options' => array(
-            'pathauto' => 0,
-            'transliterate' => 0,
-          ),
-          'value' => '[file:ffp-name-only-original].[file:ffp-extension-original]',
-        ),
-        'file_path' => array(
-          'options' => array(
-            'pathauto' => 0,
-            'transliterate' => 0,
-          ),
-          'value' => '',
-        ),
-        'retroactive_update' => 0,
-      ),
       'max_filesize' => '1 MB',
       'max_resolution' => '',
       'min_resolution' => '960x400',
@@ -183,13 +165,20 @@ function bamboo_slideshow_field_default_field_instances() {
       'module' => 'image',
       'settings' => array(
         'insert' => 0,
-        'insert_absolute' => FALSE,
+        'insert_absolute' => 0,
         'insert_class' => '',
-        'insert_default' => array(
-          0 => 'auto',
-        ),
+        'insert_default' => 'auto',
         'insert_styles' => array(
-          0 => 'auto',
+          'auto' => 'auto',
+          'icon_link' => 0,
+          'image' => 0,
+          'image_flexslider_full' => 0,
+          'image_flexslider_image' => 0,
+          'image_flexslider_thumbnail' => 0,
+          'image_large' => 0,
+          'image_medium' => 0,
+          'image_thumbnail' => 0,
+          'link' => 0,
         ),
         'insert_width' => '',
         'preview_image_style' => 'thumbnail',

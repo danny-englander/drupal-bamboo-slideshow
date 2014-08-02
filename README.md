@@ -25,13 +25,14 @@ drush dl entityreference, strongarm, entity, features, libraries, views, ctools,
 ```
 You will still need to download the Flexslider library from Woothemes.
 2. Download and install the Flexslider library in */sites/all/libraries*.  After download, it will look like "woothemes-FlexSlider-06b12f8" or similar. You should rename this folder to "flexslider", all lower case so your final end result is */sites/all/libraries/flexslider*.
-3. Install the Bamboo Slideshow Feature (this module) as per above or if you have a "custom" directory under /modules. Be sure to rename the unzipped / untarred "bamboo_slideshow-7.x-2.x" to just "bamboo_slideshow"
+3. Install the Bamboo Slideshow Feature (this module) as per above or if you have a "features" directory under /modules. Be sure to rename the unzipped / untarred "bamboo_slideshow-7.x-2.x" to just "bamboo_slideshow"
 
 **Typical locations for Drupal modules:**
 
 * */sites/mysite.com/modules*
 * */sites/all/modules/contrib*
 * */sites/all/modules*
+* */sites/all/features*
 
 ##Notes
 

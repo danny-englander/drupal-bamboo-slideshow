@@ -274,7 +274,7 @@ function bamboo_slideshow_views_default_views() {
   $handler->display->display_options['fields']['field_slide_image']['element_wrapper_type'] = '0';
   $handler->display->display_options['fields']['field_slide_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_slide_image']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'flexslider_image',
     'image_link' => '',
   );
   /* Field: Content: Slide Text */

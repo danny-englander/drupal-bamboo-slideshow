@@ -1,6 +1,6 @@
 #Drupal Bamboo Slideshow Documentation
 
-Bamboo Slideshow is a Feature (module) for [Drupal 7](http://drupal.org/project/drupal). It uses Views, Views Slideshow and Flexslider so it's responsive out of the box. You can [see a demo of it here](http://bamboo.themehuis.com/bamboo-featured-content-slideshow). Bamboo Slideshow is a companion module for the [Bamboo theme](http://drupal.org/project/bamboo) on drupal.org by [Danny Englander](http://highrockmedia.com/) ([@Danny_Englander](https://twitter.com/Danny_Englander)) The Feature works well with the Bamboo theme but should also work well with other Drupal 7 themes. 
+Bamboo Slideshow is a Feature (module) for [Drupal 7](http://drupal.org/project/drupal). It uses Views, Views Slideshow and Flexslider so it's responsive out of the box. You can [see a demo of it here](http://bamboo.themehuis.com/bamboo-featured-content-slideshow). Bamboo Slideshow is a companion module for the [Bamboo theme](http://drupal.org/project/bamboo) on drupal.org by [Danny Englander](http://danny-englander.com/) ([@Danny_Englander](https://twitter.com/Danny_Englander)) The Feature works well with the Bamboo theme but should also work well with other Drupal 7 themes. 
 
 ##Required third party Drupal modules and library (As of August, 2014)
 * [Entity API](http://drupal.org/project/entity) - 7.x-1.5
@@ -56,7 +56,7 @@ When you create slideshow content, there are a number of fields to be aware of.
 
 **Page content** -- This field option is if you would like to have your slideshow linked to the origin node itself. For this option, use the **View: Bamboo Slideshow: Link-to-self Slideshow Block** on the blocks admin page. 
 
-For more info, refer to [the screen capture](https://raw.githubusercontent.com/highrockmedia/drupal-bamboo-slideshow/7.x-2.x/assets/node-edit.png) that illustrates the fields above and what they do. There are also three sample images you can use in the included assets folder, the same ones that are used in the demo. 
+For more info, refer to [the screen capture](https://raw.githubusercontent.com/danny-englander/drupal-bamboo-slideshow/7.x-2.x/assets/node-edit.png) that illustrates the fields above and what they do. There are also three sample images you can use in the included assets folder, the same ones that are used in the demo. 
 
 ##Choose and Place a Slideshow Block
 The Feature creates two blocks as mentioned above. You can see these on the blocks admin page or at */admin/structure/block*
@@ -69,7 +69,7 @@ Use the first block if you are using the **Page Content field**, use the second 
 ##Updating Bamboo Slideshow
 To update the Bamboo Slideshow feature, follow these steps:
 
-1. [Download the feature](https://github.com/highrockmedia/drupal-bamboo-slideshow) from the repo
+1. [Download the feature](https://github.com/danny-englander/drupal-bamboo-slideshow) from the repo
 2. Rename the unzipped / untarred "bamboo_slideshow-7.x-2.x" to just "bamboo_slideshow" and replace the old one with this new one wherever you have it in your site. i.e. */sites/all/modules*
 4. Clear your Drupal cache
 3. Go to your drupal Features admin page and check to see if Bamboo Slideshow has been overridden at: /admin/structure/features
@@ -79,5 +79,5 @@ To update the Bamboo Slideshow feature, follow these steps:
 -----
 
 ##Support
-This Feature is free and licensed under GPL. However, if you require support, I can offer this on a paid basis either hourly or per project. Please do not open an issue for this in the Bamboo issue queue on drupal.org, [contact me directly](http://highrockmedia.com/contact-us). 
+This Feature is free and licensed under GPL. However, if you require support, I can offer this on a paid basis either hourly or per project. Please do not open an issue for this in the Bamboo issue queue on drupal.org, [contact me directly](http://danny-englander.com/contact-us). 
 
